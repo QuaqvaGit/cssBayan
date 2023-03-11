@@ -37,15 +37,35 @@ main {
 .accordion-item {
     width:100%;
     margin:2.5% auto;
+    padding-top:2%;
     border-top:3px solid var(--border-color-item);
     border-bottom: 3px solid var(--border-color-item);
 }
+
 
 .accordion-item img {
     display:block;
     margin:5% auto 2% auto;
     object-fit: cover;
     width:80%;
+    border-radius:2%;
+}
+
+.item-title {
+    width:100%;
+}
+
+.accordion-item h2 {
+    display:inline-block;
+    width:70%;
+}
+
+.align-right {
+    width: 25%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items:center;
+    font-size:1.5em;
 }
 
 .underline {
