@@ -45,7 +45,7 @@ main {
 .accordion-item {
     width:100%;
     margin:2.5% auto;
-    padding-top:2%;
+    padding:2% 0;
     border-top:3px solid var(--border-color-item);
     border-bottom: 3px solid var(--border-color-item);
     color:var(--font-color-item);
@@ -84,15 +84,17 @@ main {
 
 .accordion-item img {
     display:block;
-    margin:5% auto 2% auto;
     object-fit: cover;
     width:0;
     border-radius:2%;
     height:0;
+    transition: ease-in-out 0.2s;
+    margin:0 auto;
 }
 
 .accordion-item:hover img,
 .accordion-item:focus img{
+    margin:5% auto 2% auto;
     height:100%;
     width:80%;
 }
