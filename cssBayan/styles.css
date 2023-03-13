@@ -57,8 +57,8 @@ main {
     transition: ease-in-out 0.15s;
 }
 
-.accordion-item .fa-chevron-up{
-    opacity: 0 !important;
+.accordion-wrapper  .fa-chevron-down{
+    opacity: 0;
 }
 
 
@@ -79,6 +79,10 @@ main {
     .accordion-item img{
         max-height: 0;
         max-width: 0;
+    }
+
+    .accordion-wrapper:hover .fa-chevron-down {
+        opacity: 1;
     }
 
     .accordion-wrapper:hover .accordion-item,
