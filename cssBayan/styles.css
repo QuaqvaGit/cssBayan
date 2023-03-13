@@ -58,7 +58,6 @@ main {
 }
 
 .accordion-wrapper  .fa-chevron-down{
-    opacity: 1;
     transition: transform ease-in-out 0.2s;
 }
 
@@ -82,7 +81,6 @@ main {
 
 /* icons behaviour */
 .accordion-item:focus .fa {
-    opacity: 1;
     transform: rotate(180deg);
 }
 
