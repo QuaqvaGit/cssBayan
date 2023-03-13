@@ -58,8 +58,8 @@ main {
 }
 
 .accordion-wrapper  .fa-chevron-down{
-    opacity: 0;
-    transition: opacity ease-in-out 0.2s, transform ease-in-out 0.2s;
+    opacity: 1;
+    transition: transform ease-in-out 0.2s;
 }
 
 
@@ -105,6 +105,11 @@ main {
 
 /*Hover support*/
 @media (hover: hover) {
+    .accordion-wrapper  .fa-chevron-down{
+        opacity: 0;
+        transition: opacity ease-in-out 0.2s, transform ease-in-out 0.2s;
+    }
+
     .accordion-wrapper:hover .fa-chevron-down {
         opacity: 1;
     }
