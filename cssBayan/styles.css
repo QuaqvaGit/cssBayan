@@ -82,6 +82,7 @@ main {
 
 /* icons behaviour */
 .accordion-item:focus .fa {
+    opacity: 1;
     transform: rotate(180deg);
 }
 
