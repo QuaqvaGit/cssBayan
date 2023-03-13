@@ -50,8 +50,8 @@ main {
     height:20%;
     margin:2.5% auto;
     padding:2% 0;
-    border-top:2px solid var(--border-color-item);
-    border-bottom: 2px solid var(--border-color-item);
+    border-top:0.2rem solid var(--border-color-item);
+    border-bottom: 0.2rem solid var(--border-color-item);
     color:var(--font-color-item);
     z-index: 1;
     transition: ease-in-out 0.15s;
