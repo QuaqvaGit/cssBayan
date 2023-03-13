@@ -17,7 +17,7 @@
 }
 
 html {
-    font: 10px Tahoma, sans-serif;
+    font: 62.5% Tahoma, sans-serif;
     color:var(--font-color);
 }
 
@@ -180,7 +180,7 @@ footer a {
 /*Tablet*/
 @media (min-width:820px) {
     html {
-        font-size:15px;
+        font-size:93.5%;
     }
     main {
         min-height: 95vh;
@@ -202,7 +202,7 @@ footer a {
 /*Desktop*/
 @media (min-width:1920px){
     html {
-        font-size: 20px;
+        font-size: 125%;
     }
     main {
         min-height:98vh;
